@@ -3,4 +3,6 @@ def my_collect(languages)
   while i < languages.length 
   do {|language| language.upcase}
   yield 
+  end
+  
 end
