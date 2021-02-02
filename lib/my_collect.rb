@@ -5,5 +5,5 @@ def my_collect(languages)
   do {|language| language.upcase}
   yield 
   end
-  
+  collection
 end
